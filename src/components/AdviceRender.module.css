@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 350px;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  box-shadow: inset 0 1px 2px hsl(217, 19%, 38%), 0 4px 6px hsl(218, 23%, 16%);
+}
+
+.container h1 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 800;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 2.5px;
+  margin-top: -40px;
+}
+
+.container span {
+  margin-left: 10px;
+}
+
+.container p {
+  font-size: 25px;
+  color: hsl(193, 38%, 86%);
+  padding: 20px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.divider_desktop {
+  width: 400px;
+  height: 15px;
+}
+
+.divider_mobile {
+  display: none;
+}
+
+button {
+  position: absolute;
+  top: 310px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(150, 100%, 66%);
+}
+
+button:hover {
+  border: none;
+  box-shadow: 0px 0px 30px hsl(150, 100%, 66%);
+}
